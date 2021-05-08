@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d76e734-f177-4b06-b494-6b6fceaa5b5e" name="Default Changelist" comment="Created 404 and contact us page">
-      <change afterPath="$PROJECT_DIR$/templates/sell.html" afterDir="false" />
-    </list>
+    <list default="true" id="1d76e734-f177-4b06-b494-6b6fceaa5b5e" name="Default Changelist" comment="Fixed some errors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620420024622</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed some errors">
+      <created>1620503946849</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620503946849</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +88,7 @@
     <MESSAGE value="Created login and signup page frontend" />
     <MESSAGE value="Created home page" />
     <MESSAGE value="Created 404 and contact us page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 404 and contact us page" />
+    <MESSAGE value="Fixed some errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors" />
   </component>
 </project>
