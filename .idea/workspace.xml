@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d76e734-f177-4b06-b494-6b6fceaa5b5e" name="Default Changelist" comment="Fixed some errors" />
+    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Set up Email service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1sDgToKuHUqgvd6MAJqpmYlfEvs" />
+  <component name="ProjectId" id="1sGRljDyiBJUmLXpoTEyFR61chs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -21,53 +41,46 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saket kumar\PycharmProjects\HoneyComb\templates" />
+      <recent name="C:\Users\saket kumar\PycharmProjects\HoneyComb" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d76e734-f177-4b06-b494-6b6fceaa5b5e" name="Default Changelist" comment="" />
-      <created>1620412586691</created>
+      <changelist id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="" />
+      <created>1620497094631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620412586691</updated>
+      <updated>1620497094631</updated>
     </task>
-    <task id="LOCAL-00001" summary="Created django admin and fixed some errors">
-      <created>1620412692808</created>
+    <task id="LOCAL-00001" summary="created product app">
+      <created>1620497331170</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1620412692808</updated>
+      <updated>1620497331170</updated>
     </task>
-    <task id="LOCAL-00002" summary="Created login and signup page frontend">
-      <created>1620412920834</created>
+    <task id="LOCAL-00002" summary="Individual product page created">
+      <created>1620498825859</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1620412920834</updated>
+      <updated>1620498825859</updated>
     </task>
-    <task id="LOCAL-00003" summary="Created home page">
-      <created>1620413402367</created>
+    <task id="LOCAL-00003" summary="Set up Email service">
+      <created>1620501370552</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1620413402367</updated>
+      <updated>1620501370552</updated>
     </task>
-    <task id="LOCAL-00004" summary="Created 404 and contact us page">
-      <created>1620420024622</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1620420024622</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Fixed some errors">
-      <created>1620503946849</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1620503946849</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,11 +97,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Created django admin and fixed some errors" />
-    <MESSAGE value="Created login and signup page frontend" />
-    <MESSAGE value="Created home page" />
-    <MESSAGE value="Created 404 and contact us page" />
-    <MESSAGE value="Fixed some errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors" />
+    <MESSAGE value="created product app" />
+    <MESSAGE value="Individual product page created" />
+    <MESSAGE value="Set up Email service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up Email service" />
   </component>
 </project>
