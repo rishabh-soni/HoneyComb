@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\benja\PycharmProjects\HoneyComb\venv"
+VIRTUAL_ENV="C:\Users\benja\PycharmProjects\Online_Resource_Sharing_Platform\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
