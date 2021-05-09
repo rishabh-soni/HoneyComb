@@ -212,7 +212,7 @@ function myFunction(){
                     </dl>
                     <dl class="param param-feature">
                         <dt>Seller Username</dt>
-                        <dd>{{x.seller}}</dd>
+                        <dd><a href="/profile/seller/{{x.seller}}" style="text-decoration: none; font-size:17px;">{{x.seller}}</a></dd>
                     </dl>  <!-- item-property-hor .// -->
                     <dl class="param param-feature">
                         <dt>Product Category</dt>
@@ -242,7 +242,7 @@ function myFunction(){
                     </a>
                     {% else %}
                     {% if user.is_authenticated %}
-                    <a href="#myModal3" class="btn btn-lg btn-primary text-uppercase"
+                    <a href="#myModal1" class="btn btn-lg btn-primary text-uppercase"
                        style="background: #FE980F;border: none; " data-toggle="modal">{% ifequal 'sell' x.sell %} Buy
                         now{% else %} Rent Now{% endifequal %}</a>
                     {% else %}

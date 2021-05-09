@@ -43,6 +43,7 @@ urlpatterns = [
                   path('profile/', views.profile, name='profile'),
                   path('profile/edit/general', views.editprofile, name='editprofile'),
                   path('profile/edit/password', views.editpassword, name='editpassword'),
+                  path('profile/seller/<slug:sname>', views.sellerprofile),
                   path('sell/', prodviews.sell, name='sell'),
                   path('contact-us/', views.contactus, name='contactus'),
                   path('404/', views.error, name='404'),

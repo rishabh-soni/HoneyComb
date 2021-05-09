@@ -75,6 +75,16 @@ def profile(request):
         return redirect('login')
 
 
+def sellerprofile(request, sname):
+    user = request.user
+    if user is not None:
+        if user.is_active:
+            seller = CustomUser.objects.get(username=sname)
+            products = Products.objects.filter(seller=seller.username)
+            return render(request, 'seller_profile.html', {'seller': seller, 'product': products})
+        return redirect('login')
+
+
 def editprofile(request):
     user = request.user
     if request.method == 'POST':

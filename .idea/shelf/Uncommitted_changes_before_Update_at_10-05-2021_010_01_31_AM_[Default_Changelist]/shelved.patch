@@ -1,0 +1,61 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.9\" project-jdk-type=\"Python SDK\" />\r\n  <component name=\"PyCharmProfessionalAdvertiser\">\r\n    <option name=\"shown\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 998f9eecb49fb3244feefc17120f304192406ba2)
++++ b/.idea/misc.xml	(date 1620587881808)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (HoneyComb)" project-jdk-type="Python SDK" />
+   <component name="PyCharmProfessionalAdvertiser">
+     <option name="shown" value="true" />
+   </component>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c1c4a384-509c-4648-ab6a-2dcba3e5b57b\" name=\"Default Changelist\" comment=\"Set up Email service\">\r\n      <change afterPath=\"$PROJECT_DIR$/templates/wishlist.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/HoneyComb.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/HoneyComb.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/products/apps.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/products/apps.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1sGRljDyiBJUmLXpoTEyFR61chs\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/templates\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\saket kumar\\PycharmProjects\\HoneyComb\\templates\" />\r\n      <recent name=\"C:\\Users\\saket kumar\\PycharmProjects\\HoneyComb\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c1c4a384-509c-4648-ab6a-2dcba3e5b57b\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1620497094631</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1620497094631</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"created product app\">\r\n      <created>1620497331170</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620497331170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Individual product page created\">\r\n      <created>1620498825859</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620498825859</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Set up Email service\">\r\n      <created>1620501370552</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620501370552</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"created product app\" />\r\n    <MESSAGE value=\"Individual product page created\" />\r\n    <MESSAGE value=\"Set up Email service\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Set up Email service\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 998f9eecb49fb3244feefc17120f304192406ba2)
++++ b/.idea/workspace.xml	(date 1620590471295)
+@@ -20,11 +20,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Set up Email service">
+-      <change afterPath="$PROJECT_DIR$/templates/wishlist.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/HoneyComb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HoneyComb.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/apps.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/HoneyComb.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/venv\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.9\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/HoneyComb.iml b/.idea/HoneyComb.iml
+--- a/.idea/HoneyComb.iml	(revision 998f9eecb49fb3244feefc17120f304192406ba2)
++++ b/.idea/HoneyComb.iml	(date 1620587881781)
+@@ -4,7 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/venv" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file

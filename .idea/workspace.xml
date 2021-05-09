@@ -19,14 +19,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Your ads page added">
-      <change afterPath="$PROJECT_DIR$/templates/yourorders.html" afterDir="false" />
+    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Set up Email service">
+      <change afterPath="$PROJECT_DIR$/media/images/1431384870-notes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/31tdGRFXbCL._AC_SS350_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/41SmJRCkGYL._SX383_BO1204203200_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/45-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/51dejGGQznL._SX355_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/713Jf1cFWDL._SL1500_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/71Q7VeAsGRL._SL1200_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/812L5zyAmpL._AC_SX522_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/812L5zyAmpL._AC_SX522__qenLqKz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/91fFYnTtMzL._SX425_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/Diana_Classic_2017_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/HTB1BMuej3vD8KJjSsplq6yIEFXaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/MIni-Drafter-Professional.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/RelaxwellGalaxy1450792394.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/TELEMMGLPICT000206110274_trans_NvBQzQNjv4BqrS8Z1b0ZQjNoViJZ3HnGQ4NS1YurETCFkeLSh1IwB7c.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/Tabletennis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/Untitled-design-6-400x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/Untitled-design-6-400x400_J9E2bL5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/Untitled-design-6-400x400_T2mcKpD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/bsa_super_deluxe_jr_male_bicycle_black_23574579_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/bsa_super_deluxe_jr_male_bicycle_black_23574579_0_vJbaIkB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/concepts-of-physics-vol-1-book-500x500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/deadpool-black1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/iphone-12-pro-family-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/metal-and-wood-childrens-beach-bucket-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/the-alchemist-500x500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/whites-girl-power-at-work-lab-coats-82523-64_1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/images/zoe_whitelines-screendump.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/seller_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HoneyComb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HoneyComb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authen/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource_sharing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resource_sharing/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +83,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />

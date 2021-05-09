@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}
-{{ user.full_name }}'s Profile
+{{ seller.full_name }}'s Profile
 {% endblock title %}
 
 {% block head %}
@@ -11,14 +11,14 @@ color: #1a202c;
 text-align: left;
 background-color: #e2e8f0;
 }
-.user-box {
+.seller-box {
     width: 110px;
     margin: auto;
     margin-bottom: 20px;
 
 }
 
-.user-box img {
+.seller-box img {
     width: 100%;
     border-radius: 50%;
 	padding: 3px;
@@ -61,22 +61,22 @@ background-color: #e2e8f0;
 .profile-card-2 .card.profile-warning::before {
 	background-color: #ff9700;
 }
-.profile-card-2 .user-box {
+.profile-card-2 .seller-box {
 	margin-top: 30px;
 }
 
-.profile-card-3 .user-fullimage {
+.profile-card-3 .seller-fullimage {
 	position:relative;
 }
 
-.profile-card-3 .user-fullimage .details{
+.profile-card-3 .seller-fullimage .details{
 	position: absolute;
     bottom: 0;
     left: 0px;
 	width:100%;
 }
 
-.profile-card-4 .user-box {
+.profile-card-4 .seller-box {
     width: 110px;
     margin: auto;
     margin-bottom: 10px;
@@ -436,6 +436,8 @@ background-color: #e2e8f0;
 
 
 
+
+
 </style>
 {% endblock head %}
 
@@ -451,7 +453,7 @@ background-color: #e2e8f0;
                         <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle"
                              width="150">
                         <div class="mt-3">
-                            <h4>{{user.full_name}}</h4>
+                            <h4>{{seller.full_name}}</h4>
                         </div>
                     </div>
                     <div class="card-body">
@@ -461,17 +463,8 @@ background-color: #e2e8f0;
                                     <i class="fa fa-user"></i>
                                 </div>
                                 <div class="list-details">
-                                    <span>{{user.username}}</span>
+                                    <span>{{seller.username}}</span>
                                     <small>Username</small>
-                                </div>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="list-icon">
-                                    <i class="fa fa-phone-square"></i>
-                                </div>
-                                <div class="list-details">
-                                    <span>{{user.phone_no}}</span>
-                                    <small>Mobile Number</small>
                                 </div>
                             </li>
                             <li class="list-group-item">
@@ -479,7 +472,7 @@ background-color: #e2e8f0;
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="list-details">
-                                    <span>{{user.email}}</span>
+                                    <span>{{seller.email}}</span>
                                     <small>Email Address</small>
                                 </div>
                             </li>
@@ -488,136 +481,72 @@ background-color: #e2e8f0;
                 </div>
             </div>
         </div>
+
         <div class="col-lg-8">
-            {% if messages %}
-            <ul class="messages">
-                {% for message in messages %}
-                <div class="alert alert-info alert-dismissible" role="alert">
-                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                <div class="alert-message">
-                                    <span><i class="icon-info"></i> {{message}}</span>
-                                </div>
-                            </div>
-                {% endfor %}
-            </ul>
-            {% endif %}
             <div class="card z-depth-3">
                 <div class="card-body">
-                    <ul class="nav nav-pills nav-pills-primary nav-justified">
-                        <li class="nav-item">
-                            <a href="javascript:void();" data-target="#edit" data-toggle="pill" class="nav-link active show"><i
-                                    class="icon-note"></i> <span class="hidden-xs"><i class="fa fa-pencil"></i> Edit</span></a>
-                        </li>
-                    </ul>
-                    <div class="tab-content p-3">
-                        <div class="tab-pane" id="messages">
-                            <div class="alert alert-info alert-dismissible" role="alert">
-                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                <div class="alert-icon">
-                                    <i class="icon-info"></i>
+                    <h3>Posted Ads</h3>
+                    <!-- Card Start -->
+                    {% if product|length == 0 %}
+                    <section>
+                        <div class="container" style="text-align:center; margin-top:20px; padding:60px;">
+                            <img src="/static/images/no-ads.png" style="margin-bottom:20px;">
+                            <h3>No ADs Posted</h3>
+                            <p>{{seller.full_name}} hasn't put up any ads</p>
+                        </div>
+                    </section>
+                    <br>
+                    {% else %}
+                    {% for x in product %}
+                    {% if x.status == 0 %}
+                    <a href="/buy/product/{{x.id}}" style="text-decoration:none; color:#403f3c; font-size:1em;">
+                        <div class="card" style="width: 100%; margin-bottom:10px; border:1; border-radius:0px; padding:15px;">
+                            <div class="row">
+                                <div class="col-md-7 px-3" style="margin-right:-40px;">
+                                    <div class="card-block px-6">
+                                        <article class="card-body p-1">
+                                            <h3 class="title mb-2">{{x.name}}</h3>
+                                            <p class="price-detail-wrap">
+                                                <span class="price h3 text-warning">
+                                                    {% if x.status %}
+                                                    <span class="num">Sold Out</span>
+                                                    {% else %}
+                                                    <span class="currency">₹ </span><span class="num">{{x.price}}</span>
+                                                    {% endif %}
+                                                </span>
+                                            </p> <!-- price-detail-wrap .// -->
+                                            <dl class="item-property">
+                                                <dt>Description</dt>
+                                                <dd><p>{{x.description}} </p></dd>
+                                            </dl>
+                                            <dl class="param param-feature">
+                                                <dt>Product Category</dt>
+                                                <dd>{{x.category}}</dd>
+                                            </dl>  <!-- item-property-hor .// -->
+                                            <a href="/buy/product/{{x.id}}"
+                                               class="btn btn-lg btn-primary text-uppercase"
+                                               style="background: #FE980F;border: none; "><i
+                                                    class="fa fa-shopping-cart"></i> View Product </a>
+
+                                        </article>
+                                    </div>
                                 </div>
-                                <div class="alert-message">
-                                    <span><strong>Info!</strong> Lorem Ipsum is simply dummy text.</span>
+                                <div class="col-md-5 d-flex align-items-center justify-content-center" style="">
+                                    <a href="/buy/product/{{x.id}}">
+                                        <img class="d-block" src='/media/{{x.Img1}}' alt=""
+                                             style="max-height:300px; height:auto; max-width:300px;   transform: translate(0%, 0%);  display: flex; align-items: center; flex-wrap: wrap;">
+                                    </a>
                                 </div>
                             </div>
-                            <table class="table table-hover table-striped">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <span class="float-right font-weight-bold">3 hrs ago</span> Here is your a link
-                                        to the latest summary report from the..
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="float-right font-weight-bold">Yesterday</span> There has been a
-                                        request on your account since that was..
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="float-right font-weight-bold">9/10</span> Porttitor vitae ultrices
-                                        quis, dapibus id dolor. Morbi venenatis lacinia rhoncus.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="float-right font-weight-bold">9/4</span> Vestibulum tincidunt
-                                        ullamcorper eros eget luctus.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="float-right font-weight-bold">9/4</span> Maxamillion ais the fix
-                                        for tibulum tincidunt ullamcorper eros.
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
                         </div>
-
-                        <div class="tab-pane active show" id="edit">
-                            <h5><i class="fa fa-user"></i> General</h5>
-                            <form method="post" action="/profile/edit/general">
-                                {% csrf_token %}
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label">{{profileform.full_name.label}}</label>
-                                    <div class="col-lg-9">
-                                        {% render_field profileform.full_name class="form-control" value=user.full_name %}
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label">{{profileform.email.label}}</label>
-                                    <div class="col-lg-9">
-                                        {% render_field profileform.email class="form-control" value=user.email%}
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label">{{profileform.phone_no.label}}</label>
-                                    <div class="col-lg-9">
-                                        {% render_field profileform.phone_no class="form-control" value=user.phone_no%}
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label"></label>
-                                    <div class="col-lg-9">
-                                        <input type="reset" class="btn btn-secondary" value="Cancel">
-                                        <input type="submit" class="btn btn-primary" value="Save Changes">
-                                    </div>
-                                </div>
-                            </form>
-                            <form method="post" action="/profile/edit/password">
-                                <h5><i class="fa fa-lock"></i> Login and Security</h5>
-                                {% csrf_token %}
-                                {% for field in passform %}
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label">{{field.label}}</label>
-                                    <div class="col-lg-9">
-                                        {{ field|attr:"class:form-control"}}
-                                        {% if field.help_text %}
-                                        <br>
-                                        <small style="color: grey">{{ field.help_text }}</small>
-                                        {% endif %}
-                                        {% for error in field.errors %}
-                                         <p style="color: red">{{ error }}</p>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                                {% endfor %}
-                                <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label"></label>
-                                    <div class="col-lg-9">
-                                        <input type="reset" class="btn btn-secondary" value="Cancel">
-                                        <input type="submit" class="btn btn-primary" value="Save Changes">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                    </a>
+                    {% endif %}
+                {% endfor %}
+                {% endif %}
                 </div>
+
             </div>
         </div>
-
     </div>
 </div>
 
