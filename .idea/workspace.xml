@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Set up Email service">
-      <change afterPath="$PROJECT_DIR$/templates/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HoneyComb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HoneyComb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/apps.py" afterDir="false" />
+    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Wishlist page added">
+      <change afterPath="$PROJECT_DIR$/templates/editad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620501370552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Wishlist page added">
+      <created>1620587554198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620587554198</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +107,13 @@
     <MESSAGE value="created product app" />
     <MESSAGE value="Individual product page created" />
     <MESSAGE value="Set up Email service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up Email service" />
+    <MESSAGE value="Wishlist page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wishlist page added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1620587563283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620587563283" />
   </component>
 </project>
