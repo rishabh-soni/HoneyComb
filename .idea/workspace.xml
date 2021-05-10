@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Created profile page">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-21_2_06_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2021_010_01_31_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2021_010_01_31_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2021_010_12_43_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2021_010_12_43_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/aboutus.html" afterDir="false" />
+    <list default="true" id="c1c4a384-509c-4648-ab6a-2dcba3e5b57b" name="Default Changelist" comment="Disabled the email functionality for security purposes.">
+      <change beforePath="$PROJECT_DIR$/authen/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/authen/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
