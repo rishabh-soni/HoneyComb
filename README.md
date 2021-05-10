@@ -6,7 +6,7 @@ HoneyComb is an interactive platform for buying, selling, and renting any studen
 The project is made using **django** while **MySQL** is used for database management.
 
 ## Project Requirements (for local hosting)
-* Python 3.8
+* Python 3.8 and above
 * MySQL server and MySQL Workbench (recommended 8.0 and above)
 * Git
 
