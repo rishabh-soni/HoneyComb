@@ -19,3 +19,6 @@ The project is made using **django** while **MySQL** is used for database manage
 * Run the command **python manage.py runserver** and browse the corresponding URL provided.
 * Create a user in MySQL Workbench with the name **dbadmin** and leave the password field blank.
 * Granting all permissions to the user.
+
+## Command to run test cases
+We can run the test cases using the command: **python manage.py test**
