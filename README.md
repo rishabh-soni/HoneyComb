@@ -14,11 +14,10 @@ The project is made using **django** while **MySQL** is used for database manage
 * Clone the remote repository on your system.
 * Install all the dependencies by running the command **pip install -r requirements.txt**
 * Create a new connection in MySQL Workbench and import the database from database.sql file in the **/sqldump** directory.
+* Create a user in MySQL Workbench with the name **dbadmin** and leave the password field blank, granting all permissions to the user.
 * Run the command **python manage.py makemigrations**
 * Run the command **python manage.py migrate**
 * Run the command **python manage.py runserver** and browse the corresponding URL provided.
-* Create a user in MySQL Workbench with the name **dbadmin** and leave the password field blank.
-* Granting all permissions to the user.
 
 ## Command to run test cases
 We can run the test cases using the command: **python manage.py test**
